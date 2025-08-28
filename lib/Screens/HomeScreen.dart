@@ -9,6 +9,9 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
+        iconTheme: IconThemeData(
+          color: Colors.white
+        ),
         title: Text('Home Screen',
           style: TextStyle(
               color: Colors.yellow[300]

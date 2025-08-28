@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grindrithm/Screens/AuthScreens/SignUpOnBoardScreens/SignUpScreen.dart';
+import 'package:grindrithm/Screens/AuthScreens/SignUpOnBoardScreens/UsernameScreen.dart';
 import 'package:grindrithm/Screens/HomeScreen.dart';
 
 
@@ -30,7 +30,7 @@ class Loginscreen extends StatelessWidget {
             ),
 
             SizedBox(height: 25),
-            Text('Enter a your mail:',
+            Text('Enter a your email:',
             style: TextStyle(
               color: Colors.white,
               fontSize: 18,
@@ -60,7 +60,7 @@ class Loginscreen extends StatelessWidget {
 
             _actionBtn("Create a account",(){
 
-              Navigator.push(context, MaterialPageRoute(builder: (context) => Signupscreen()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Usernamescreen()));
 
             }),
 
